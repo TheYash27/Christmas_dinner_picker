@@ -1,0 +1,96 @@
+/* Font and background */
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #fffafa; /* Light cream color */
+  color: #333;
+}
+
+/* Overall layout */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 30px;
+  color: #d54e21; /* Cranberry red */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Result section */
+.result {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.result span {
+  font-weight: bold;
+  color: #28a745; /* Christmas green */
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  padding: 20px;
+  border: 2px solid #d54e21;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="number"],
+input[type="checkbox"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.veggie {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#btn {
+  background-color: #d54e21;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#recipeLink {
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #28a745; /* Christmas green */
+  font-weight: bold;
+}
+
+/* Image */
+#mealImage {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
